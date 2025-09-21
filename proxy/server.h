@@ -19,9 +19,9 @@ class server {
    public:
     int m_user = 0;
     int m_token = 0;
-    std::string m_server = "213.179.209.168";
-    int m_port = 17198;
-    int m_proxyport = 17191;
+    std::string m_server = "127.0.0.1";  // atau IP server VPS kamu
+    int m_port = 17096;  // contoh port custom
+    int m_proxyport = 17091;  // biarkan default kecuali kamu ubah di config device-mu
     world m_world;
     bool start();
     void quit();
