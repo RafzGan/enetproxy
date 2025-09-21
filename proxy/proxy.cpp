@@ -13,9 +13,9 @@ server* g_server = new server();
 
 int main() {
 #ifdef _WIN32
-    SetConsoleTitleA("proxy by ama");
+    SetConsoleTitleA("proxy by lon");
 #endif
-    printf("enet proxy by ama\n");
+    printf("lon proxy by fauzi\n");
 
     std::ifstream vr;
     vr.open("version.txt");
